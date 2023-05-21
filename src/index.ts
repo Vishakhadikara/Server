@@ -2,7 +2,6 @@ import express from 'express';
 import{createServer} from 'http';
 import { Server } from 'colyseus';
 import { GameRoom } from "./gameroom";
-import{monitor} from '@colyseus/monitor';
 
 const port = Number(process.env.PORT || 2567);
 const app = express();
